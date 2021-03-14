@@ -1,0 +1,635 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 5000px;
+}
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+
+div{
+	box-sizing: border-box;
+	
+}
+
+
+
+@media(max-width: 1440px){
+	.container{
+		max-width: 1380px;
+	}
+}
+
+@media(max-width: 1080px){
+	.container{
+		max-width: 970px;
+	}
+}
+
+@media(max-width: 992px){
+	.container{
+		max-width: 750px;
+	}
+}
+
+@media(max-width: 320px){
+
+
+	.container{
+		max-width: 300px;
+	}
+	body{
+		max-width: 300px;
+		width: 100%;
+	}
+	
+
+}
+
+
+@media(max-width: 280px){
+  .container{
+     max-width: 250px;
+  }
+}
+
+
+
+
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+	}
+
+	.header{
+		background-color: black;
+		padding-bottom: 20px;
+	}
+
+	.container{
+		max-width: 1025px;
+		width: 100%;
+		margin: 0 auto;
+		
+	}
+
+	.header_inner{
+		display: flex;
+		justify-content: space-between;
+		
+		
+	}
+
+	.header_logo{
+		padding-top: 25px;
+	}
+
+	.header_nav{
+		padding-top: 13px;
+	}
+
+	.header_ul li{
+		float: right;
+		display: block;
+	}
+
+	.header_ul li a{
+     margin-right: 50px;
+     text-decoration: none;
+     color: #848484
+	}
+
+
+	.intro{
+		background-color: #9a9a9a;
+		padding-bottom: 140px;
+       
+	}
+
+	.intro_inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 125px;
+	}
+
+
+	.intro_inner_left{
+    display: flex;
+    flex-direction: column;
+	}
+
+	.intro_inner_left h1{
+		font-size: 30px;
+		color: white;
+	}
+
+	.intro_inner_left p{
+		font-size: 18px;
+		color: #d7d7d7;
+	}
+
+	.mini_div{
+		background-color:white;
+		width: 60px;
+		height: 2px;
+		border: 1px solid white;
+		margin-top: 25px;
+
+	}
+
+	.intro_button{
+		border: 2px solid white;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		width: 75px
+
+	}
+
+	.intro_inner_right{
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		float: right;
+	}
+
+	.intro_inner_right h3{
+		border:2px solid #f5f5f5;
+		padding-left: 60px;
+		padding-right: 60px;
+		background-color: #f5f5f5;
+		margin: 0 auto;
+	}
+
+	.intro_inner_right h3 span{
+		color: orange;
+	}
+
+	
+
+	input{
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 50px;
+    font-size: 20px;
+
+
+	}
+
+
+	.intro_inner_right_button{
+     margin-top: 80px;
+     width: 100%;
+     background-color: #ff9b51;
+     text-align: center;
+     padding-bottom: 17px;
+     padding-top: 10px;
+     text-decoration: none;
+     color: white;
+	}
+
+	.messengers{
+		border-bottom: 4px solid #9a9a9a;
+
+	}
+
+
+	.messengers_inner{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.messenger_text h3{
+		margin-bottom: -12px;
+		font-size: 10hv;
+	}
+
+	.messengers_icon{
+		margin-top: 33px;
+
+	}
+
+	
+
+	.Tabs{
+     background-color: #f5f5f5;
+     padding-bottom: 115px;
+
+	}
+
+	.Tabs_inner{
+		display: flex;
+		padding-top: 140px;
+		justify-content: space-between;
+	}
+
+	.Tabs_items{
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+	.Tabs_item{
+		border: 2px solid black;
+		width: 100px;
+		padding-bottom: 25px;
+		padding-top: 20px;
+		background-color: black;
+		text-align: center;
+		color: white;
+		border-top-color: white;
+		border-radius: 5px
+		
+	}
+
+	.Tabs_item:first-child{
+		background-color: #ff8b38;
+		border: 2px solid #ff8b38;
+	}
+
+	.Tabs_text{
+		padding: 50px;
+		padding-top:0;
+		padding-bottom: 0;
+	}
+
+	.Tabs_text h3{
+		font-size: 21px;
+	}
+
+	.Tabs_text p{
+		color: #9b9c9f;
+		font-size: 18px;
+	}
+
+	.Tabs_button{
+		text-decoration: none;
+		color: white;
+		background-color: #ff8b38;
+		padding: 10px;
+		margin-top: 40px;
+		display: block;
+		width: 70px;
+		border-radius: 2px;
+	}
+
+	.Tabs_picture{
+		margin-top: 50px;
+	}
+
+	.sublist{
+		padding-bottom: 100px;
+	}
+
+	.sublist_inner{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 120px;
+
+	}
+
+
+	.photo-window{
+		width: 750px;
+		height: 300px;
+		background-color: #9a9a9a;
+		padding-top: 105px;
+		display: block;
+		margin-top: 50px;
+	}
+
+	.photo-window p{
+		text-align: center;
+		font-size: 25px;
+		color: #e3e3e3
+	}
+
+	.sublist_tittle{
+		margin-left: 150px;
+	}
+
+	.sublist_tittle h3{
+		margin-bottom: 30px;
+	}
+
+	.minidiv-2{
+		width: 59px;
+		height: 2px;
+		background-color: orange;
+		margin-bottom: 25px;
+
+	}
+
+	.sublist_div{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: 2px solid orange;
+		padding-left: 10px;
+		margin-top: 15px;
+		padding-top: 10px;
+		float: left;
+	}
+
+	.sublist_items{
+		margin-top: 50px;
+	}
+
+	.sublist_item:last-child{
+		margin-top: 40px;
+	}
+
+	.sublist_item_text{
+		padding-left: 100px;
+
+	}
+
+	.sublist_item_text h3{
+		margin-bottom: -10px;
+	}
+
+	.standart-picture{
+		background-color: #f5f5f5;
+		padding-bottom: 100px;
+	}
+
+	.standart-picture-inner{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 100px;
+	}
+
+	.standart-picture_text{
+		width: 400px;
+		margin-top: 50px;
+	}
+
+	.photo-window:last-child{
+		width: 400px;
+
+	}
+
+	
+
+	
+
+	.head-tittle{
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 75px;
+
+	}
+
+	.head-h1{
+		font-size: 27px;
+	}
+
+	.minidiv-3{
+		margin:0 auto;
+		width: 59px;
+		height: 2px;
+		background-color: orange;
+		margin-bottom: 25px;
+
+	}
+
+	.services{
+		padding-bottom: 100px;
+	}
+
+	.services_items{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 50px;
+	}
+
+	.services_item{
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		margin: 0 auto;
+		padding-left: 30px;
+
+	}
+
+	.services_item:first-child{
+		padding-left: 0
+	}
+
+	.services_icon{
+     width: 65px;
+     height: 65px;
+     border: 2px solid #ff8a36;
+     border-radius: 50%;
+     padding-top: 15px;
+     margin: 0 auto;
+
+
+	}
+
+	.services_icon-2{
+     width: 65px;
+     height: 65px;
+     border: 2px solid #ff8a36;
+     border-radius: 50%;
+     padding-top: 17px;
+     margin: 0 auto;
+
+	}
+
+	.pricing{
+		background-color: #f5f5f5;
+		padding-bottom: 100px;
+	}
+
+	.pricing_items{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.pricing_item{
+     margin: 0 auto;
+     flex-direction: column;
+     width: 250px;
+     background-color: white;
+
+	}
+
+	.pricing_item_tittle{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		background-color: #333333;
+	}
+
+	.pricing_item_tittle h3{
+		border-bottom: 1px solid white;
+		color: white;
+		text-align: center;
+		
+		
+
+	}
+
+	.pricing_number{
+		display: flex;
+		text-align: center;
+		padding-left: 75px;
+	}
+
+	.dollar{
+		font-size: 40px;
+		margin-top:20px; 
+	}
+
+	.number-0{
+		font-size: 80px;
+		margin-top: -10px;
+	}
+
+	.number-1{
+     font-size: 80px;
+     margin-top: -10px;
+	}
+
+	.number-9{
+		font-size: 80px;
+		margin-top: -6px;
+	}
+
+	.number-7{
+		font-size: 90px;
+		margin-top: -17px;
+	}
+
+	.pricing_item_tittle h4{
+		margin-top: -65px;
+	}
+
+	.pricing_button{
+		text-align: center;
+		width: 100%;
+		background-color: orange;
+		color: white;
+		text-decoration: none;
+		padding-top:8px;
+		padding-bottom: 8px;
+	}
+
+	.pricing_item:nth-child(odd)>.pricing_item_tittle:nth-child(odd){
+		border-bottom: 4px solid orange;
+	}
+
+	.pricing_menu{
+		text-align: center;
+	}
+
+	.customers{
+     padding-bottom: 100px;
+	}
+
+	.customers_inner{
+
+	}
+
+	.customers_items{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.customers_item{
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.customers_text{
+		background-color: #f5f5f5;
+		margin: 0 auto;
+		text-align: center;
+		
+		
+	}
+
+	.customers-human{
+		display: flex;
+		margin-left: 0;
+	}
+
+	.customers_div{
+		width: 80px;
+		height: 80px;
+		background-color: #9a9a9a;
+		border-radius: 50%;
+	}
+
+	.customers_name{
+		padding-left: 15px;
+	}
+
+	.customers_name h3{
+		margin-bottom: -18px;
+	}
+
+	.stylish{
+		background-color: #9a9a9a;
+		padding-bottom: 25px;
+	}
+
+	.head-tittle:last-child>.head-h1:last-child{
+		color: white;
+		background-color: orange
+	}
+
+	.head-tittle-2{
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 75px;
+		color: white;
+
+	}
+
+	.head-tittle-2 h3{
+		
+	}
+
+	.minidiv-4{
+		margin:0 auto;
+		width: 59px;
+		height: 2px;
+		background-color: white;
+		margin-bottom: 25px;
+
+	}
+
+	.stylish_button{
+		border: 2px solid white;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		width: 75px;
+		margin-top: 27px;
+		display: inline-block;
+	}
+
+	
+	
+	
+
+	
+
+	
